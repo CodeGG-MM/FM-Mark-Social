@@ -1,0 +1,54 @@
+@font-face {
+  font-family: Inter;
+  src: url(/assets/fonts/static/Inter-Regular.ttf) format(ttf);
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 100%);
+  font-family: Inter;
+}
+
+img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+
+.main {
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 1rem;
+  text-align: center;
+  margin: 9rem auto;
+  padding: 15px;
+  width: 90%;
+  max-width: 400px;
+}
+
+div span {
+  color: hsl(75, 94%, 57%);
+}
+
+p {
+  font-size: 14px;
+}
+
+.social-link {
+  margin: 20px;
+  background-color: hsl(0, 0%, 20%);
+  padding: 10px;
+  border-radius: 7px;
+  transition: background-color 0.3s;
+  font-weight: bold;
+}
+
+.social-link:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+}
+
+.attribution {
+  padding-top: 1cm;
+  text-align: center;
+}
